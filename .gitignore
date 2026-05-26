@@ -1,23 +1,35 @@
+# =====================
 # Python
+# =====================
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
+# =====================
 # Virtual environments
+# =====================
 env/
 venv/
 .venv/
 
-# Jupyter
+# =====================
+# Jupyter Notebook
+# =====================
 .ipynb_checkpoints/
 
+# =====================
 # VS Code
+# =====================
 .vscode/
 
+# =====================
 # OS files
+# =====================
 .DS_Store
 Thumbs.db
 
-# DVC tracked data
-data/
+# =====================
+# DVC internal files only
+# =====================
+.dvc/tmp
